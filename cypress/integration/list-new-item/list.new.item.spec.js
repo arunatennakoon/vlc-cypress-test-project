@@ -6,7 +6,7 @@ describe("example to-do app", () => {
   });
 
   it("Listing", () => {
-    cy.login("Auto.Val@valtest.co.nz", "Valocity123");
+    cy.login(Cypress.env('email'), Cypress.env('password'));
     cy.listingItem("item1");
     cy.addListingDetails("item description");
     cy.addPriceDetails("100");
@@ -14,6 +14,6 @@ describe("example to-do app", () => {
     cy.continueWithoutPhoto();
     cy.chosePackage();
     cy.startAuction();
-    cy.validateStartedText("Your auction has started");
+    cy.validateStartedText("Your auction has started.");
   });
 });
