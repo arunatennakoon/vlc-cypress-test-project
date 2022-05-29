@@ -1,0 +1,14 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "Cypress test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "aruna thennakoon",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  }
+}
