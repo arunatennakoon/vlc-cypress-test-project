@@ -1,11 +1,11 @@
 /// <reference types="cypress" />
 
-describe("example to-do app", () => {
+describe("List items", () => {
   beforeEach(() => {
     cy.visit("/");
   });
 
-  it("Listing", () => {
+  it("Listing a new item", () => {
     cy.login(Cypress.env('email'), Cypress.env('password'));
     cy.listingItem("item1");
     cy.addListingDetails("item description");

@@ -20,3 +20,6 @@
 #### Convert the project to typescript
 #### Reporting
 #### More parameterizing to increase the re-usability
+
+## Known issues in  the current code
+#### Test fails to click on the category which is the line number 20,21 in 'ListingPage'. 

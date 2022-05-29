@@ -4,7 +4,7 @@
   "description": "Cypress test project",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "cypress run"
   },
   "author": "aruna thennakoon",
   "license": "ISC",
